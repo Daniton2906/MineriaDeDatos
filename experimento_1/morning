@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo "Good morning, world."
+python experimentoUserAvg.py
+python experimentoUserKnn.py
+python experimentoItemKnn.py
+python experimentoSVD.py
+python counter.py
+make clean
